@@ -1,0 +1,125 @@
+/* Bootstrap override */
+
+body {
+	font-family: 'Palanquin', sans-serif;
+	background-color: #F3F3F3 ;
+}
+
+h2 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2.6em;
+    color: #585858;
+}
+
+h3 {
+    color: #585858;
+}
+
+h4 {
+	font-style: italic;
+    color: #585858;
+}
+
+a {
+    color: #458B00; 
+}
+a:hover {
+    color: #2b9798;
+    text-decoration: none;
+}
+
+.mono { 
+    font-family: monospace; 
+}
+
+/**********/
+/* Navbar */
+/**********/
+
+.navbar-custom {
+	/*background-color:  #ffb31a;*/
+    background-color: #e6e6e6 ;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #000000;
+}
+
+/**********/
+/* Banner */                                                                        
+/**********/
+
+.container-header {
+	height: 600px;
+	width: 100%;
+	background: url('images/banner_cubized_bw.jpg') no-repeat top center;
+	background-size: cover;
+}
+
+/********/
+/* Logo */                                                                        
+/********/
+
+#logo {
+    padding-top: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+}
+	
+
+/**********/
+/* Footer */
+/**********/
+
+#footer  {
+		width: 100%;	
+		overflow: hidden;
+		padding: 2em 0em;
+        border-top: 1px solid #d9d9d9;
+        background-color: #e6e6e6 ;
+}
+
+#footer p {
+		text-align: center;
+		font-size: 1.20em;
+}
+
+#button {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	text-align: center;
+}
+	
+
+/*************/
+/* Container */
+/*************/
+
+.container-grey {
+	width: 100%;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+    background-color: #F3F3F3 ;
+}
+
+.container-white {
+	width: 100%;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+    background-color: #FFFFFF ;
+}
+
+.link-offset-h2 {
+    position: relative;
+    top: -50px;   
+    }
+.link-offset-h4 {
+    position: relative;
+    top: -55px;   
+    }
+
+
