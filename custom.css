@@ -8,16 +8,25 @@ body {
 h2 {
     font-family: 'Cabin Sketch', cursive;
     font-size: 2.6em;
-    color: #585858;
+}
+
+.title-red {
+	color: #ff0000
+}
+.title-green {
+	color: #008000
+}
+.title-yellow {
+	color: #ffbf00
 }
 
 h3 {
-    color: #585858;
+	color: #ffbf00;
 }
 
 h4 {
 	font-style: italic;
-    color: #585858;
+	color: #008000
 }
 
 a {
@@ -38,8 +47,8 @@ a:hover {
 
 .navbar-custom {
 	/*background-color:  #ffb31a;*/
-    background-color: #e6e6e6 ;
-    border-bottom: 1px solid #d9d9d9;
+    background-color: #c1c1c1;
+    border-bottom: 1px solid #999999;
 }
 
 .navbar-custom .navbar-nav .nav-link {
