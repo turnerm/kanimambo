@@ -46,9 +46,8 @@ a:hover {
 /**********/
 
 .navbar-custom {
-	/*background-color:  #ffb31a;*/
-    background-color: #c1c1c1;
-    border-bottom: 1px solid #999999;
+	background-color: #e6e6e6 ;
+    border-bottom: 1px solid #d9d9d9;
 }
 
 .navbar-custom .navbar-nav .nav-link {
